@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Intervixus | Security Gateway</title>
+    <style>
+        body { background: #020617; color: white; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .box { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; text-align: center; backdrop-filter: blur(10px); }
+        #captchaCanvas { border-radius: 8px; cursor: pointer; border: 1px solid #1e293b; margin-bottom: 20px; }
+        input { background: #0f172a; border: 1px solid #38bdf8; padding: 12px; border-radius: 8px; color: white; text-align: center; font-size: 1.2rem; width: 200px; outline: none; }
+        button { background: #38bdf8; color: #020617; border: none; padding: 12px 25px; border-radius: 8px; font-weight: bold; cursor: pointer; margin-left: 10px; }
+        .info { margin-top: 20px; font-size: 0.8rem; color: #64748b; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2 style="margin-top:0">🛡️ Validação de Acesso</h2>
+        <p style="color:#94a3b8">Resolva o desafio para provar que você é humano.</p>
+        
+        <canvas id="captchaCanvas" width="250" height="80"></canvas>
+        <br>
+        <input type="text" id="uInput" placeholder="Código" maxlength="6">
+        <button onclick="validateAccess()">VERIFICAR</button>
+        
+        <div id="status" style="margin-top:15px; font-weight:bold"></div>
+        
+        <div class="info">
+            Sistema Intervixus Anti-Attack v1.0<br>
+            Seu IP e Navegador estão sendo monitorados para segurança.
+        </div>
+    </div>
+    <script src="security.js"></script>
+</body>
+</html>
