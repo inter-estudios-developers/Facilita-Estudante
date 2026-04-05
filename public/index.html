@@ -13,6 +13,26 @@
     </style>
 </head>
 <body>
+<script>
+        // 🛡️ SISTEMA DE BLINDAGEM INTERVIXUS
+        // Se tentar entrar direto sem passar pelo Captcha, expulsa na hora!
+        if (sessionStorage.getItem('intervixus_auth') !== 'true') {
+            window.location.replace("index.html"); 
+        }
+    </script>
+    <meta charset="UTF-8">
+    <title>Início | Facilita Estudante</title>
+    <style>
+        body { background: #020617; color: white; font-family: sans-serif; text-align: center; padding-top: 50px; }
+        .success-box { border: 1px solid #38bdf8; display: inline-block; padding: 20px; border-radius: 15px; background: rgba(56, 189, 248, 0.05); }
+    </script>
+</head>
+<body>
+    <div class="success-box">
+        <h1>🚀 Bem-vindo à Intervixus</h1>
+        <p>Você provou que é humano. O acesso ao <b>Facilita Estudante</b> está liberado!</p>
+        <button onclick="sessionStorage.clear(); window.location.reload();">Sair (Testar Bloqueio)</button>
+    </div>
     <div class="box">
         <h2 style="margin-top:0">🛡️ Validação de Acesso</h2>
         <p style="color:#94a3b8">Resolva o desafio para provar que você é humano.</p>

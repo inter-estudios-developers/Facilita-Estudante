@@ -9,7 +9,7 @@
     ],
     "rewrites": [
       {
-        "source": "/home",
+        "source": "/inicio",
         "destination": "/home.html"
       }
     ]
