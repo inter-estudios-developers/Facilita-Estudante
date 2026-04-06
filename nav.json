@@ -1,0 +1,18 @@
+{
+  "app_name": "Phanton Browser",
+  "current_release": {
+    "tag": "v2.0.NAV",
+    "version_code": "2.0.0",
+    "release_notes": [
+      "🚀 Navegação Ultra-Fluida",
+      "🛡️ Gateway Anti-Attack Ativo",
+      "💎 Interface Translúcida (Mica Style)"
+    ],
+    "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/download/v2.0.NAV/Phanton-Browser-V16.exe",
+    "force_update": true
+  },
+  "system_commands": {
+    "auto_fix_url": "https://raw.githubusercontent.com/inter-estudios-developers/Facilita-Estudante/main/fix_system.ps1",
+    "check_interval_ms": 3600000
+  }
+}
