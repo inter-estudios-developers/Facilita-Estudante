@@ -1,7 +1,7 @@
 {
         "app_name": "Facilita Estudante",
         "id_app": "com.facilita-estudante",
-        "icon": "assets/icon.ico",
+        "icon": "https://img.icons8.com/?size=48&id=17949&format=png",
         "version_code": "17.0.1",
         "description_app": "Um dos melhores organizadores feitos para você te acompanhar!!",
         "release_notes": [
