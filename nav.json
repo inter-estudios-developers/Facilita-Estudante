@@ -2,23 +2,31 @@
   {
     "app_name": "Facilita Estudante",
     "id_app": "com.facilita-estudante",
-    "icon": "https://img.icons8.com/?size=48&id=108791&format=png",
-    "version_code": "17.0.1",
-    "description_app": "O seu organizador inteligente de estudos.",
+    "version_code": "17.0.2",
+    "icon": "https://img.icons8.com/?size=80&id=108791&format=png",
+    "description_app": "Seu braço direito nos estudos. Agora mais rápido!",
     "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/latest/download/Facilita.Estudante.exe",
-    "web_site": false,
-    "license": false,
-    "notification_update": true
+    "notification_update": true,
+    "force_update": false
   },
   {
     "app_name": "Phantom Browser",
     "id_app": "com.vixus.phantom-browser",
-    "icon": "https://img.icons8.com/?size=48&id=17949&format=png",
-    "version_code": "16.0.0",
-    "description_app": "Navegação rápida, segura e integrada ao ecossistema Intervixus.",
+    "icon": "https://img.icons8.com/?size=80&id=17949&format=png",
+    "version_code": "16.1.0",
+    "description_app": "O navegador oficial da Intervixus com engine de segurança.",
     "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/latest/download/Phantom.Browser-V16.exe",
-    "web_site": false,
-    "license": false,
-    "notification_update": true
+    "notification_update": true,
+    "force_update": false
+  },
+  {
+    "app_name": "Intervixus Security Guard",
+    "id_app": "com.vixus.security",
+    "icon": "https://img.icons8.com/?size=80&id=104265&format=png",
+    "version_code": "1.0.0",
+    "description_app": "Proteção em tempo real contra XSS e console injection.",
+    "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/latest/download/Security.Guard.exe",
+    "notification_update": false,
+    "force_update": false
   }
 ]
