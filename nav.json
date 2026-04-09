@@ -1,16 +1,24 @@
-{
-        "app_name": "Phato browser",
-        "id_app": "com.facilita-estudante",
-        "icon": "https://img.icons8.com/?size=48&id=17949&format=png",
-        "version_code": "17.0.1",
-        "description_app": "Um dos melhores organizadores feitos para você te acompanhar!!",
-        "release_notes": [
-            "O seu organizador na palma da mão!",
-            "Sistema robusto e seguro!",
-            "Sincronização em tempo real!"
-        ],
-        "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/latest/download/Phantom.Browser-V16.exe",
-        "web_site": false,
-        "license": false,
-        "notification_update": true
-    }
+[
+  {
+    "app_name": "Facilita Estudante",
+    "id_app": "com.facilita-estudante",
+    "icon": "https://img.icons8.com/?size=48&id=108791&format=png",
+    "version_code": "17.0.1",
+    "description_app": "O seu organizador inteligente de estudos.",
+    "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/latest/download/Facilita.Estudante.exe",
+    "web_site": false,
+    "license": false,
+    "notification_update": true
+  },
+  {
+    "app_name": "Phantom Browser",
+    "id_app": "com.vixus.phantom-browser",
+    "icon": "https://img.icons8.com/?size=48&id=17949&format=png",
+    "version_code": "16.0.0",
+    "description_app": "Navegação rápida, segura e integrada ao ecossistema Intervixus.",
+    "download_url": "https://github.com/inter-estudios-developers/Facilita-Estudante/releases/latest/download/Phantom.Browser-V16.exe",
+    "web_site": false,
+    "license": false,
+    "notification_update": true
+  }
+]
