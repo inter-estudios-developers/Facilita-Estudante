@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "commands": {
+    "install": "Instala um app pelo ID ou nome",
+    "uninstall": "Desinstala um app",
+    "open": "Abre um app instalado",
+    "repar": "Reinstala/verifica integridade do app",
+    "reload": "Recarrega a lista de apps",
+    "list": "Lista todos os apps disponíveis",
+    "login": "Faz login no ecossistema",
+    "add": "Adiciona atalho na barra de tarefas/menu iniciar",
+    "block": "Bloqueia URLs específicas",
+    "unblock": "Desbloqueia URLs",
+    "restart": "Reinicia o PC ou a loja"
+  },
+  "apps": [
+    {
+      "id": "com.facilita-estudante",
+      "name": "Facilita Estudante",
+      "aliases": ["facilita", "fe", "estudante"],
+      "version": "17.0.1",
+      "download_url": "https://...",
+      "executable": "Phantom.Browser-V16.exe",
+      "license_url": "https://...",
+      "website": "https://..."
+    }
+  ],
+  "blocked_urls": [],
+  "shortcuts": []
+}
