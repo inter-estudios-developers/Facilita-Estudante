@@ -1,4 +1,6 @@
- "app_name": "Inter Browser",
+[
+    {
+        "app_name": "Inter Browser",
         "id_app": "com.inter.browser",
         "icon": "false",
         "version_code": "17.0.1",
@@ -12,7 +14,9 @@
         "web_site": false,
         "license": false,
         "notification_update": true
- "app_name": "Inter Browser",
+    },
+    {
+        "app_name": "Inter Browser",
         "id_app": "com.inter.browser",
         "icon": "false",
         "version_code": "17.0",
@@ -26,3 +30,5 @@
         "web_site": false,
         "license": false,
         "notification_update": true
+    }
+]
