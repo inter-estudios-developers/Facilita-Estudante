@@ -1,18 +1,13 @@
-[
-  {
-    "app_name": "Inter Browser",
-    "id_app": "com.inter.browser",
-    "icon": false,
-    "version_code": "17.0.1",
-    "description_app": "Um dos melhores organizadores e navegadores focados em automação e isolamento de perfis.",
-    "release_notes": [
-      "Melhorias no mascaramento de fingerprint",
-      "Otimização de consumo de memória RAM",
-      "Correção no sistema de proxy SOCKS5"
-    ],
-    "download_url": "https://github.com/Intervixus/InterBrowser/releases/download/v16.0.0/Phantom.Browser-V16.exe",
-    "web_site": false,
-    "license": false,
-    "notification_update": true
-  }
-]
+{
+     "app_name": "Inter Browser",
+     "Atualization-name": "Nome da atualização",
+     "id_app": "com.inter.browser",
+     "version_code": "17.0.1",
+     "description_app": "Descrição",
+     "release_notes": ["Nota 1", "Nota 2"],
+     "download_url": "https://...",
+     "icon": "📦",
+     "web_site": false,
+     "license": false,
+     "notification_update": true
+   }
